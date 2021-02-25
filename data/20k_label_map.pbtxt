@@ -1,0 +1,80 @@
+item {
+  id:1
+  name:'Copper CR'
+}
+item {
+  id:2
+  name:'ACSR_CR'
+}
+item {
+  id:3
+  name:'Post Ins'
+}
+item {
+  id:4
+  name:'Concrete Pole'
+}
+item {
+  id:5
+  name:'Long Rod Ins'
+}
+item {
+  id:6
+  name:'Timber_Line_CA'
+}
+item {
+  id:7
+  name:'Timber_PoleTop_CA'
+}
+item {
+  id:8
+  name:'Concrete_PoleTop_CA'
+}
+item {
+  id:9
+  name:'Steel_PoleTop_CA'
+}
+item {
+  id:10
+  name:'Pin Ins'
+}
+item {
+  id:11
+  name:'Suspension Ins'
+}
+item {
+  id:12
+  name:'Glass Ins'
+}
+item {
+  id:13
+  name:'Polymer Ins'
+}
+item {
+  id:14
+  name:'Concrete_Line_CA'
+}
+item {
+  id:15
+  name:'Tie-TopPin Ins'
+}
+item {
+  id:16
+  name:'Steel Pole'
+}
+item {
+  id:17
+  name:'Steel_Two_CA'
+}
+item {
+  id:18
+  name:'transformer'
+}
+item {
+  id:19
+  name:'Strain Ins'
+}
+item {
+  id:20
+  name:'Timber Pole'
+}
