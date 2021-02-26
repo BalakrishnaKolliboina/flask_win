@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -23,7 +22,7 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        python -m venv env
+        python3 -m venv env
         .\env\Scripts\activate
         pip install -r requirements.txt
 
@@ -35,5 +34,5 @@ jobs:
       with:
         app-name: 'arwin'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b731ee19ee244afdb1bb63318fb182c1 }}
-        package: '.\app.zip'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_52fa56a85a7842e790228e5001de38cf }}
+        package: '.\myapp.zip'
