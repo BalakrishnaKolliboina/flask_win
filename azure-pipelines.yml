@@ -11,19 +11,17 @@ variables:
   azureServiceConnectionId: '59be3fb4-ffb2-4edd-9766-1e7318e08dbb'
 
   # Web app name
-  webAppName: 'assetrec'
+  webAppName: 'arwin'
 
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'assetrec'
+  environmentName: 'arwin'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
-  pythonVersion: '3.8'
+  pythonVersion: '3.6'
 
 stages:
 - stage: Build
